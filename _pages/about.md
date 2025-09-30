@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "About Me"
-permalink: /about/
+permalink: /
 excerpt: "About me"
 author_profile: true
-redirect_from:
-  - /about.html
 ---
 
 I'm a PhD student at [Johns Hopkins University](https://engineering.jhu.edu/ece), working at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu), advised by [Prof. Sanjeev Khudanpur](https://www.clsp.jhu.edu/faculty/sanjeev-khudanpur). I was also a [JHU–Amazon AI2AI Fellow](https://ai2ai.engineering.jhu.edu/2024-2025-ai2ai-fellows) during 2024–2025.
