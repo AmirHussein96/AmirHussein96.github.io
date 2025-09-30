@@ -14,7 +14,7 @@ I'm generally interested in improving speech & language processing. My current p
 I also completed my master's degree at CMU SCS where I was advised by [Dr. Michael Shamos](http://euro.ecom.cmu.edu/shamos.html). Before that, I was a Technology Strategy Consultant at [Accenture](https://accenture.com/strategy/consulting). I completed my undergraduate degree in Economics and Computer Science at [The University of Chicago](https://uchicago.edu).
 
 <p align="center">
-  <img width="225" height="50" src="https:assets/logos.png">
+  <img width="225" height="50" src="https:assets/jhu_logo.svg">
 </p>
 
 ## Updates
