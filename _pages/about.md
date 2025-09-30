@@ -7,22 +7,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a PhD student at the [Language Technologies Institute](https://lti.cs.cmu.edu) of the [School of Computer Science](https://cs.cmu.edu) at [Carnegie Mellon University](https://cmu.edu). I am advised by [Dr. Shinji Watanabe](https://sites.google.com/view/shinjiwatanabe) as a member of [WAVLab](https://shinjiwlab.github.io).
+I'm a PhD student at [Johns Hopkins University](https://engineering.jhu.edu/ece), working at the [Center for Language and Speech Processing](https://www.clsp.jhu.edu), advised by [Prof. Sanjeev Khudanpur](https://www.clsp.jhu.edu/faculty/sanjeev-khudanpur). I was also a [JHU–Amazon AI2AI Fellow](https://ai2ai.engineering.jhu.edu/2024-2025-ai2ai-fellows) during 2024–2025.
 
-I'm generally interested in improving speech & language processing. My current projects involve **speech translation** and **multilingual speech recognition** with end-to-end neural networks.
+My research focuses on building **real-time speech translation** models that can handle **conversational** and **long-form** speech, as well as multimodal representation learning. I have also worked on problems involving multilingual, code-switched, and low-resource ASR, along with neural audio codecs.
 
-I also completed my master's degree at CMU SCS where I was advised by [Dr. Michael Shamos](http://euro.ecom.cmu.edu/shamos.html). Before that, I was a Technology Strategy Consultant at [Accenture](https://accenture.com/strategy/consulting). I completed my undergraduate degree in Economics and Computer Science at [The University of Chicago](https://uchicago.edu).
+I completed my master's degree in Electrical and Computer Engineering at the [American University of Beirut](https://www.aub.edu.lb/), where I was advised by [Prof. Hazem Hajj](https://www.aub.edu.lb/pages/profile.aspx?memberId=hh63) and was a member of the [AUB MIND Lab](https://sites.aub.edu.lb/mindlab/members/alumni/). My research there focused on time series and sensing analytics, domain adaptation, and multitask learning. After that, I worked as a Machine Learning Consultant at [Kanari.ai](https://kanari.ai) under the supervision of [Dr. Ahmed Ali](https://www.linkedin.com/in/ahmedali08). 
+<!-- I earned my undergraduate degree in Electrical and Electronic Engineering at the [University of Khartoum](https://www.uofk.edu/).-->
+
 
 <p align="center">
-  <img width="225" height="50" src="https:assets/jhu_logo.svg">
+  <img width="200" height="50" src="https:assets/jhu_logo.svg">
 </p>
 
 ## Updates
-
-* *May 2024*: Interning at Meta FAIR with [Dr. Michael Auli](https://michaelauli.github.io/)
+* *May 2025*: Interning at [NVIDIA RIVA team](https://www.nvidia.com/en-us/ai-data-science/products/riva/) 
+* *May 2024*: Interning at MERL with [Speech & Audio team](https://www.merl.com/research/speech-audio)
 * *June 2023*: Joining the [SCALE 2023 Workshop](https://hltcoe.jhu.edu/research/scale/scale-2023) at John's Hopkins University
 * *June 2022*: Joining the [JSALT 2022 Workshop](https://www.clsp.jhu.edu/2022-eighth-frederick-jelinek-memorial-summer-workshop/) at John's Hopkins University
-* *May 2021*: Interning at [Dr. Dong Yu's](https://sites.google.com/view/dongyu888/) AI lab at Tencent America
 
 ## Selected Publications
 
@@ -81,7 +82,7 @@ I also completed my master's degree at CMU SCS where I was advised by [Dr. Micha
 
 ***
 
-[My Google Scholar is more comprehensive.](https://scholar.google.com/citations?user=Pn3DcuUAAAAJ&hl=en)
+[My Google Scholar is more comprehensive.](cholar.google.com/citations?user=FPuPHkkAAAAJ&hl=en)
 
 ## Activities
 
