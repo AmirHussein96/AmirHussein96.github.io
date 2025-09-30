@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Brian Yan"
+title                    : "Amir Hussein"
 title_separator          : "-"
-name                     : &name "CMU School of Computer Science"
+name                     : &name "Johns Hopkins University"
 description              : &description "Personal Page"
-url                      : https://brianyan918.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://amirhussein96.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "brianyan918/brianyan918.github.io"
+repository               : "amirhussein96/amirhussein96.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Brian Yan"
-  avatar           : "profile.jpg"
-  bio              : "byan[at]cs.cmu.edu"
-  location         : "Pittsburgh, PA"
+  name             : "Amir Hussein"
+  avatar           : "profile2.jpg"
+  bio              : "ahussei6[at]jhu.edu"
+  location         : "Baltimore, MD"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=Pn3DcuUAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=FPuPHkkAAAAJ&hl=en"
   email            :
   researchgate     : 
   uri              :
@@ -96,20 +96,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "brianyan918"
+  github           : "amirhussein96"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "brian-yan-62ba4980/"
+  linkedin         : "https://www.linkedin.com/in/amir-hussein-0a366691/"
   orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "brianyan918"
   vine             :
   weibo            :
   xing             :
