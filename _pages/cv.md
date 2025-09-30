@@ -1,9 +1,12 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
-<a href="brianyan918.github.io/assets/cv.pdf" target="_blank">PDF.</a>
+
+You can view my CV as a PDF:
+
+<a href="{{ '/_assets/cv.pdf' | relative_url }}" target="_blank">Download CV (PDF)</a>
