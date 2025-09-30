@@ -100,25 +100,17 @@ I also completed my master's degree at CMU SCS where I was advised by [Dr. Micha
 
 *Teaching*
 
-CS 11-751: Speech Recognition and Understanding\
+EN 520.666: Information Extraction\
 <sub>Teaching Assistant</sub>\
-<sub>*Carnegie Mellon University, Fall 2023*</sub>
-
-CS 11-700: Language Technologies Institute Colloquium\
-<sub>Teaching Assistant</sub>\
-<sub>*Carnegie Mellon University, 2021-22 Academic Year*</sub>
-
-CS 11-737: Multilingual NLP\
-<sub>Teaching Assistant</sub>\
-<sub>*Carnegie Mellon University, Spring 2021 DSTA Course*</sub>
+<sub>*Johns Hopkins University, Spring 2025*</sub>
 
 ***
 
 *Academic Service*
 
 Reviewer\
-<sub>ICASSP, Interspeech, ACL, EMNLP, NAACL, SLT, ASRU, APSIPA</sub>
+<sub> JCMDS, Speech Commun, ACL, EMNLP </sub>
 
 ## Contact
 
-Email: byan[at]cs.cmu.edu
+Email: ahussei6[at]jh.edu
