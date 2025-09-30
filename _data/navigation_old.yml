@@ -1,16 +1,16 @@
-# main links links
-main:
-  - title: "News"
-    url: /#recent-news
+# # main links links
+# main:
+#   - title: "News"
+#     url: /#recent-news
 
-  - title: "Research"
-    url: /#selected-publications
+#   - title: "Research"
+#     url: /#selected-publications
 
-  - title: "Activities"
-    url: /#activities
+#   - title: "Activities"
+#     url: /#activities
 
-  - title: "Contact"
-    url: /#contact
+#   - title: "Contact"
+#     url: /#contact
 #
 #  - title: "Talks"
 #    url: /talks/    
