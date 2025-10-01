@@ -7,7 +7,7 @@ author_profile: true
 
 ## Talks
 
-**Controllable and Explainable End-to-End Speech Translation**  
+<!-- **Controllable and Explainable End-to-End Speech Translation**  
 <sub>*SIG SLT Seminar, 2022*</sub>  
 <sub>[slides](#) / [video](#)</sub>
 
@@ -17,5 +17,5 @@ author_profile: true
 
 **Building End-to-End Speech Translation Systems**  
 <sub>*JSALT Workshop, Johns Hopkins University, 2022*</sub>  
-<sub>[slides](#) / [video](#)</sub>
+<sub>[slides](#) / [video](#)</sub> -->
 
