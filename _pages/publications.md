@@ -51,5 +51,5 @@ author_profile: true
 <sub>*Computer Speech & Language (CSL), 2022*</sub>\
 <sub>[paper](https://www.sciencedirect.com/science/article/abs/pii/S0885230821000760)</sub>
 
-## Full List
+
 For a complete list, see my [Google Scholar](https://scholar.google.com/citations?user=FPuPHkkAAAAJ&hl=en).
