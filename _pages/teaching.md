@@ -1,11 +1,10 @@
 ---
 layout: single
-title: "Teaching"
+title: "Courses"
 permalink: /teaching/
 author_profile: true
 ---
 
-## Courses
 
 **EN 520.666: Information Extraction**  
 <sub>Teaching Assistant</sub>  
