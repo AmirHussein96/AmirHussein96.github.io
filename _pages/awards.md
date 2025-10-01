@@ -9,7 +9,7 @@ author_profile: true
   PhD fellowship supporting innovative research in Artificial Intelligence. [link](https://ai2ai.engineering.jhu.edu/2024-2025-ai2ai-fellows).
 
 - **2018–2020 — Al Ghurair Graduate STEM Scholarship**  
-  Full scholarship for outstanding students in the Arab region covering a master’s degree. [link](https://www.alghurairfoundation.org/).
+  Full scholarship for outstanding students in the Arab region covering my Master’s degree. [link](https://www.alghurairfoundation.org/).
 
 - **Jan 2019 — Big Data AI Hackathon (1st Place)**  
   First place in multi-class song genre classification (sponsored by Anghami).
