@@ -44,7 +44,7 @@ author_profile: true
 <sub>[paper](https://aclanthology.org/2022.iwslt-1.29)</sub>
 
 **Arabic Speech Recognition by End-to-End, Modular Systems and Human**\
-<sub>**Brian Yan**, Matthew Wiesner, Ondrej Klejch, Preethi Jyothi, Shinji Watanabe</sub>\
+<sub>**Amir Hussein**, Shinji Watanabe,Ahmed Ali</sub>\
 <sub>*Computer Speech & Language (CSL), 2022*</sub>\
 <sub>[paper](https://www.sciencedirect.com/science/article/abs/pii/S0885230821000760)</sub>
 
