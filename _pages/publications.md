@@ -10,7 +10,7 @@ author_profile: true
 
 **HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation**\
 <sub>**Amir Hussein**, Cihan Xiao, Matthew Wiesner, Dan Povey, Leibny Paola Garcia Perera, Sanjeev Khudanpur</sub>\
-</sub>*Proceedings of the 22th International Conference on Spoken Language Translation (IWSLT), 2025*</sub>\
+<sub>*Proceedings of the 22th International Conference on Spoken Language Translation (IWSLT), 2025*</sub>\
 <sub><span style="color: red;">Best student paper award</span></sub>\
 <sub>[paper](https://aclanthology.org/2025.iwslt-1.14/)</sub>
 
