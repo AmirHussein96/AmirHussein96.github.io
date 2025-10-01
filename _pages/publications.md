@@ -1,12 +1,9 @@
 ---
 layout: single
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-
-## Selected Publications
 
 **HENT-SRT: Hierarchical Efficient Neural Transducer with Self-Distillation for Joint Speech Recognition and Translation**\
 <sub>**Amir Hussein**, Cihan Xiao, Matthew Wiesner, Dan Povey, Leibny Paola Garcia Perera, Sanjeev Khudanpur</sub>\
