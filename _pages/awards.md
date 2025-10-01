@@ -15,7 +15,7 @@ author_profile: true
   First place in fake-news detection from low-resource text. [link](https://sites.google.com/view/fakenews-contest)
   
 - **Jan 2019 — Big Data AI Hackathon (1st Place)**  
-  First place in multi-class song genre classification (sponsored by Anghami).
+  First place in multi-class song genre classification. [link](https://www.aub.edu/articles/Pages/msfeahackathon.aspx).
 
 - **2018–2020 — Al Ghurair Graduate STEM Scholarship**  
   Full scholarship for outstanding students in the Arab region covering my Master’s degree. [link](https://www.alghurairfoundation.org/)
