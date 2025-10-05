@@ -2,9 +2,9 @@
 layout: single
 title: "CV"
 permalink: /cv/
-author_profile: true
+redirect_to: "/assets/cv.pdf"
 ---
 
-You can view my CV as a PDF:
+<!-- You can view my CV as a PDF:
 
-<a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank">Download CV (PDF)</a>
+<a href="{{ '/assets/cv.pdf' | relative_url }}" target="_blank">Download CV (PDF)</a> -->
