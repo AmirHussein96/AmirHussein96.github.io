@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="GenVC: Self-Supervised Zero-Shot Voice Conversion">
+        content="All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous
+        Speech-to-Speech Translation">
   <meta name="keywords" content="voice conversion, speech generation">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GenVC</title>
+  <title>FAST</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -62,7 +63,8 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+  <!-- top navigation bar -->
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -94,18 +96,19 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
-<div class="logo-container">
+<!-- <div class="logo-container">
         <img src="./logo.png" alt="Logo" class="logo">
-    </div>
+    </div> 
 
-<section class="hero">
+ <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Self-Supervised Zero-Shot <br> Voice Conversion</h1>
+          <h1 class="title is-1 publication-title">All In Good Time: Causality-Aware Framework for LLM-Based  <br> Simultaneous
+            Speech-to-Speech Translation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://caizexin.github.io">Zexin Cai</a>,</span>
@@ -137,7 +140,7 @@
 
           <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
+               PDF Link. 
               <span class="link-block">
                 <a href="https://arxiv.org/abs/2502.04519"
                    class="external-link button is-normal is-rounded is-dark">
@@ -147,8 +150,8 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Code Link. -->
-              <span class="link-block">
+              Code Link. 
+               <span class="link-block">
                 <a href="https://github.com/caizexin/GenVC"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -173,7 +176,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -184,7 +187,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Most current zero-shot voice conversion methods rely on externally supervised components, particularly speaker encoders, for training. To explore alternatives that eliminate this dependency, this paper introduces GenVC, a novel framework that disentangles speaker identity and linguistic content from speech signals in a self-supervised manner. GenVC leverages speech tokenizers and an autoregressive, Transformer-based language model as its backbone for speech generation. This design supports large-scale training while enhancing both source speaker privacy protection and target speaker cloning fidelity. Experimental results demonstrate that GenVC achieves notably higher speaker similarity, with naturalness on par with leading zero-shot approaches. Moreover, due to its autoregressive formulation, GenVC introduces flexibility in temporal alignment, reducing the preservation of source prosody and speaker-specific traits, and making it highly effective for voice anonymization.
+            Large Language Models (LLMs) have shown strong performance in low-resource offline translation; however, extending them to simultaneous speech-to-speech translation (Simul-S2ST) remains challenging due to lack of causally aligned, speaker-preserving data. In addition, existing approaches rely on fixed translation policy or confidence heuristics, leading to suboptimal quality and higher latency. We propose a causality-aware Simul-S2ST framework with a novel data pipeline that generates high-fidelity, causally aligned segments with voice preservation. The framework further proposes (i) a factorized S2ST architecture (FAST), (ii) a causality-aware adaptive policy (CAP), and (iii) alignment-aware latency metric. Experiments on CVSS (Spanish, German, and French) show that FAST improves translation by up to +9.6 ASR-BLEU over shared codec-based representations, while CAP gains up to +5.5 ASR-BLEU and reduces latency by 26% compared to fixed policy.
           </p>
         </div>
       </div>
@@ -216,14 +219,14 @@
 
 <section class="section">
   <div class="container" style="overflow-x: auto; white-space: nowrap;">
-    <h2 class="title is-3" style="text-align: center;">Unseen Voice Conversion</h2>
+    <h2 class="title is-3" style="text-align: center;">Spanish–English Samples</h2>
         <table class="table table-borderless align-middle" style="text-align: center;">
           <thead>
             <tr>
-              <th class="text-center" scope="col">Source Utterance</th>
-              <th class="text-center" scope="col">Target Prompt</th>
-              <th class="text-center" scope="col">Leading VC Approaches</th>
-              <th class="text-center" scope="col">GenVC</th>
+              <th class="text-center" scope="col">CVSS-T Source</th>
+              <th class="text-center" scope="col">CVSS-T Target</th>
+              <th class="text-center" scope="col">Pipeline Target Ours</th>
+              <th class="text-center" scope="col">FAST-CAP</th>
             </tr>
           </thead>
           <tbody>
@@ -264,33 +267,9 @@
                 <table class="table table-borderless align-middle">
                     <tbody>
                       <tr>
-                        <td >
-                          YourTTS
-                        </td>
                         <td>
                           <audio controls="" preload="none" style="margin: 0 auto; display: block;">
                             <source src="YourTTS/EF4_ENG_0010_1_to_EF7_ENG_0080_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          FreeVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="FreeVC/EF4_ENG_0010_1_to_EF7_ENG_0080_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          NeuralVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="NeutralVC/EF4_ENG_0010_1_to_EF7_ENG_0080_1.wav">
                           </audio> 
                         </td>
                       </tr>
@@ -302,517 +281,8 @@
                     <tbody>
                       <tr>
                         <td>
-                          GenVC-Small
-                        </td>
-                        <td>
                           <audio controls="" preload="none" style="margin: 0 auto; display: block;">
                             <source src="GenVC_small/EF4_ENG_0010_1_to_EF7_ENG_0080_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          GenVC-large
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="genVC_large/EF4_ENG_0010_1_to_EF7_ENG_0080_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EF4_ENG_0112_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EM1_ENG_0037_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-              
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        
-                        <td >
-                          YourTTS
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="YourTTS/EF4_ENG_0112_1_to_EM1_ENG_0037_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          FreeVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="FreeVC/EF4_ENG_0112_1_to_EM1_ENG_0037_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          NeuralVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="NeutralVC/EF4_ENG_0112_1_to_EM1_ENG_0037_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        <td>
-                          GenVC-Small
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="GenVC_small/EF4_ENG_0112_1_to_EM1_ENG_0037_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          GenVC-large
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="genVC_large/EF4_ENG_0112_1_to_EM1_ENG_0037_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EF5_ENG_0094_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EF7_ENG_0095_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-              
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        
-                        <td >
-                          YourTTS
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="YourTTS/EF5_ENG_0094_1_to_EF7_ENG_0095_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          FreeVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="FreeVC/EF5_ENG_0094_1_to_EF7_ENG_0095_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          NeuralVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="NeutralVC/EF5_ENG_0094_1_to_EF7_ENG_0095_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        <td>
-                          GenVC-Small
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="GenVC_small/EF5_ENG_0094_1_to_EF7_ENG_0095_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          GenVC-large
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="genVC_large/EF5_ENG_0094_1_to_EF7_ENG_0095_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EM2_ENG_0089_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EM5_ENG_0093_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-              
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        
-                        <td >
-                          YourTTS
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="YourTTS/EM2_ENG_0089_1_to_EM5_ENG_0093_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          FreeVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="FreeVC/EM2_ENG_0089_1_to_EM5_ENG_0093_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          NeuralVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="NeutralVC/EM2_ENG_0089_1_to_EM5_ENG_0093_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        <td>
-                          GenVC-Small
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="GenVC_small/EM2_ENG_0089_1_to_EM5_ENG_0093_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          GenVC-large
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="genVC_large/EM2_ENG_0089_1_to_EM5_ENG_0093_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EM6_ENG_0038_0.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EM3_ENG_0122_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-              
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        
-                        <td >
-                          YourTTS
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="YourTTS/EM6_ENG_0038_0_to_EM3_ENG_0122_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          FreeVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="FreeVC/EM6_ENG_0038_0_to_EM3_ENG_0122_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          NeuralVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="NeutralVC/EM6_ENG_0038_0_to_EM3_ENG_0122_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        <td>
-                          GenVC-Small
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="GenVC_small/EM6_ENG_0038_0_to_EM3_ENG_0122_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          GenVC-large
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="genVC_large/EM6_ENG_0038_0_to_EM3_ENG_0122_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-            </tr>
-
-
-            <tr>
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EM7_ENG_0034_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-
-                        <td nowrap>
-                            <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="src_tgt/EF6_ENG_0094_1.wav">
-                          </audio> 
-                        </td>
-                        
-                      </tr>
-                      
-                    </tbody>
-                  </table>
-              </td>
-              
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        
-                        <td >
-                          YourTTS
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="YourTTS/EM7_ENG_0034_1_to_EF6_ENG_0094_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-
-                        <td>
-                          FreeVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="FreeVC/EM7_ENG_0034_1_to_EF6_ENG_0094_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          NeuralVC
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="NeutralVC/EM7_ENG_0034_1_to_EF6_ENG_0094_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-              </td>
-
-              <td> <table class="table table-borderless align-middle">
-                    <tbody>
-                      <tr>
-                        <td>
-                          GenVC-Small
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="GenVC_small/EM7_ENG_0034_1_to_EF6_ENG_0094_1.wav">
-                          </audio> 
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          GenVC-large
-                        </td>
-                        <td>
-                          <audio controls="" preload="none" style="margin: 0 auto; display: block;">
-                            <source src="genVC_large/EM7_ENG_0034_1_to_EF6_ENG_0094_1.wav">
                           </audio> 
                         </td>
                       </tr>
@@ -829,8 +299,8 @@
   </div> -->
 </section>
 
-
-<section class="section" id="BibTeX">
+<!-- bibtext -->
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@misc{cai2025genvcselfsupervisedzeroshotvoice,
@@ -843,11 +313,11 @@
       pages={},
 }</code></pre>
   </div>
-</section>
+</section> -->
 
 <footer class="footer">
   <div class="container">
-    <div class="content has-text-centered">
+    <!-- <div class="content has-text-centered">
       <a class="icon-link"
          href="https://arxiv.org/abs/2502.04519">
         <i class="fas fa-file-pdf"></i>
@@ -855,8 +325,8 @@
       <a class="icon-link" href="https://github.com/caizexin/GenVC" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
-    </div>
-    <div class="columns is-centered">
+    </div> -->
+    <!-- <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
           <p>&copy; <a href="https://hltcoe.jhu.edu">Human Language Technology Center of Excellence, Johns Hopkins University</a> </p>
@@ -873,7 +343,7 @@
           <p class="float-end"><a href="#">Back to top</a></p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </footer>
 
