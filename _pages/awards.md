@@ -5,6 +5,9 @@ permalink: /awards/
 author_profile: true
 ---
 
+- **2025–2026 — Karakos Family Fellowship**  
+  Donor-funded PhD fellowship awarded by the department.
+
 - **2024–2025 — JHU + Amazon AI2AI Fellowship**  
   PhD fellowship supporting innovative research in Artificial Intelligence. [link](https://ai2ai.engineering.jhu.edu/2024-2025-ai2ai-fellows)
 
